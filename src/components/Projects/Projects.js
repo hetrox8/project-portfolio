@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import Roxil_Hotel from "../../Assets/Projects/Roxil_Hotel.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import Space from "../../Assets/Projects/Space.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import calculator from "../../Assets/Projects/calculator.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Space}
               isBlog={false}
               title="Space Traveller's Hub"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
@@ -34,15 +34,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={calculator}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Math Magicians"
+              description="This is a simple Calculator Project Build main using React, the core feature is for Clients to Perform Mathematical Calculations and also to Fetch Data from an External API (quotes)."
+              ghLink="https://github.com/hetrox8/math_magicians.git"
+              demoLink="https://math-magicians-sage.vercel.app/"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -53,15 +53,15 @@ function Projects() {
               demoLink="https://6586dcea7e948f893ad0300f--tubular-dolphin-1312ab.netlify.app/#"              
             />
           </Col>
-
+*/}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Roxil_Hotel}
               isBlog={false}
               title="Roxil Hotel"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="This a Hotel website built with React it's core goal is for Clients to Book reservations, See previous clients reviews or even check out if the hotel fits the standards and Budget."
               ghLink="https://github.com/hetrox8/Roxil_Hotel.git"
-             // demoLink="" 
+             demoLink="https://roxil-hotel.vercel.app/" 
             />
           </Col>
 
