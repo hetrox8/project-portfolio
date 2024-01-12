@@ -81,7 +81,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone your link repo https://github.com/hetrox8/math_magicians.git
+git clone your link repo https://github.com/hetrox8/project-portfolio.git
 
 cd your folder name
 ```
