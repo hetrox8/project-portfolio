@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Project Math_Magicians</b></h3>
+  <h3><b>Personal Portfolio</b></h3>
 
 </div>
 
