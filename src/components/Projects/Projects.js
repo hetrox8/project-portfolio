@@ -73,7 +73,14 @@ function Projects() {
               imgPath={Roxil_Hotel}
               isBlog={false}
               title="Roxil Hotel"
-              description="This a Hotel website built with React it's core goal is for Clients to Book reservations, See previous clients reviews or even check out if the hotel fits the standards and Budget."
+              description="This a Hotel website built with React it's core goal 
+              is for Clients to Book reservations, See previous clients reviews or even 
+              check out if the hotel fits the standards and Budget.
+              The main tech stacks used to achieve this include
+
+              1. React.js
+              2. Node.js
+              3. Css"
               ghLink="https://github.com/hetrox8/Roxil_Hotel.git"
              demoLink="https://roxil-hotel.vercel.app/" 
             />
