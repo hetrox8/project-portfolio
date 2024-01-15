@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Roxil_Hotel from "../../Assets/Projects/Roxil_Hotel.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import leaderboard from "../../Assets/Projects/leaderboard.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import Space from "../../Assets/Projects/Space.png";
 import movie from "../../Assets/Projects/movie.png";
@@ -91,21 +91,28 @@ function Projects() {
               3. Css
               "
               ghLink="https://github.com/hetrox8/Movie_App.git"
-               demoLink="https://movie-app-alpha-orpin.vercel.app/" >
-
-               </ProjectCard>
+               demoLink="https://movie-app-alpha-orpin.vercel.app/"
+                
+               />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={leaderboard}
               isBlog={false}
               title="Budget App"
-              description="The Recipe app keeps track of all your recipes, ingredients & inventory. It allows you save ingredients, keep track of what you have, create recipes & generate a shopping list based on what you have & what you're missing from a recipe. Also, since sharing recipes is an important part of 
-              cooking the app allows you to make them publicly accessible."
+              description="
+              This Project core Objective is to fetch Data from an External API and display the Data in a Leaderboard. Users can send and receive data Using the API.
+               The main languages used include 
+               1. Vanilla javascript
+               2. html
+               3. Css
+               4. Npm
+               5. Webpack
+              "
               ghLink="https://github.com/hetrox8/recipe-app.git"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
+               demoLink="https://project-learderboard.vercel.app/"
+                  />
           </Col>
         </Row>
       </Container>
