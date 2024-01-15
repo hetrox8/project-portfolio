@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -24,6 +24,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Space}
+              loading="lazy"
               isBlog={false}
               title="Space Traveller's Hub"
               description="Space Travellers Hub is a React App where Users can check available Space Shuttles, Book or Cancel Booking. There are Various 
@@ -43,9 +44,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calculator}
+              loading = "lazy"
               isBlog={false}
               title="Math Magicians"
-              description="This is a simple Calculator Project Build main using React, the core feature is for Clients to
+              description="This is a simple Calculator Project Built mainly using React, the core feature is for Clients to
                Perform Mathematical Calculations and also to Fetch Data from an External API (quotes).
                The main tech stacks used include
                1. React.js
@@ -72,6 +74,7 @@ function Projects() {
             <ProjectCard
               imgPath={Roxil_Hotel}
               isBlog={false}
+              loading = "lazy"
               title="Roxil Hotel"
               description="This a Hotel website built with React it's core goal 
               is for Clients to Book reservations, See previous clients reviews or even 
@@ -89,6 +92,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={movie}
+              loading = "lazy"
               isBlog={false}
               title="Movie App"
               description="Movie App is A react App, It's core goal is to display a list of movies to clients. They can also perform some actions like
@@ -106,6 +110,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaderboard}
+              loading = "lazy"
               isBlog={false}
               title="Budget App"
               description="
