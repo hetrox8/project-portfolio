@@ -6,7 +6,7 @@ import Roxil_Hotel from "../../Assets/Projects/Roxil_Hotel.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import Space from "../../Assets/Projects/Space.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import movie from "../../Assets/Projects/movie.png";
 import calculator from "../../Assets/Projects/calculator.png";
 
 function Projects() {
@@ -26,7 +26,15 @@ function Projects() {
               imgPath={Space}
               isBlog={false}
               title="Space Traveller's Hub"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Space Travellers Hub is a React App where Users can check available Space Shuttles, Book or Cancel Booking. There are Various 
+              Space Shuttles for Booking Including the Very Best Eagle Falcon from Space X
+              The main tech stack include
+              1. React.js
+              2. Css
+              3. Node.js
+              4. Npm
+              .
+              "
               ghLink="https://github.com/hetrox8/React-Redux-Group-Project.git"
               demoLink="https://6586dec1b2a7d78b0b4e8b3e--willowy-gaufre-5ca032.netlify.app/"
             />
@@ -37,7 +45,13 @@ function Projects() {
               imgPath={calculator}
               isBlog={false}
               title="Math Magicians"
-              description="This is a simple Calculator Project Build main using React, the core feature is for Clients to Perform Mathematical Calculations and also to Fetch Data from an External API (quotes)."
+              description="This is a simple Calculator Project Build main using React, the core feature is for Clients to
+               Perform Mathematical Calculations and also to Fetch Data from an External API (quotes).
+               The main tech stacks used include
+               1. React.js
+               2. Css
+               3. Node.js
+               "
               ghLink="https://github.com/hetrox8/math_magicians.git"
               demoLink="https://math-magicians-sage.vercel.app/"
             />
@@ -67,18 +81,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={movie}
               isBlog={false}
-              title="Blog App"
-              description="This is a Blog App where Clients can Like Posts
-               and Add comments. The main languages used are;
-               1. Ruby
-               2. Rails
-               3. Css
-               "
-              ghLink="https://github.com/hetrox8/Rails_Blog_App.git"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
+              title="Movie App"
+              description="Movie App is A react App, It's core goal is to display a list of movies to clients. They can also perform some actions like
+              adding a like and make comments on a specific movie. The main tech stack used to achieve this include
+              1. React
+              2. Node.js
+              3. Css
+              "
+              ghLink="https://github.com/hetrox8/Movie_App.git"
+               demoLink="https://movie-app-alpha-orpin.vercel.app/" >
+
+               </ProjectCard>
           </Col>
 
           <Col md={4} className="project-card">
