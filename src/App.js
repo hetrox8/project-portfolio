@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
