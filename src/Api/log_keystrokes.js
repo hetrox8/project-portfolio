@@ -1,4 +1,5 @@
 // api/log_keystrokes.js
+res.setHeader('Access-Control-Allow-Origin', '*');
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
