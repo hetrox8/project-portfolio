@@ -2,12 +2,11 @@ import React, { lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Roxil_Hotel from "../../Assets/Projects/Roxil_Hotel.png";
-import leaderboard from "../../Assets/Projects/leaderboard.png";
+
 import editor from "../../Assets/Projects/codeEditor.png";
 import Space from "../../Assets/Projects/Space.png";
-import movie from "../../Assets/Projects/movie.png";
-import calculator from "../../Assets/Projects/calculator.png";
+import bookstore from "../../Assets/Projects/bookstore.png"
+import weather from "../../Assets/Projects/weather.png"
 
 function Projects() {
   return (
@@ -43,19 +42,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calculator}
+              imgPath={bookstore}
               loading = "lazy"
               isBlog={false}
-              title="Math Magicians"
-              description="This is a simple Calculator Project Built mainly using React, the core feature is for Clients to
-               Perform Mathematical Calculations and also to Fetch Data from an External API (quotes).
-               The main tech stacks used include
+              title="Book Store App"
+              description="Book Store is a website where Clients can review their status of the Books either Completed
+               or in progress and providing a visual representation of how long they have read.
+               The main languages used to achieve this include react.js and css 
                1. React.js
                2. Css
                3. Node.js
                "
-              ghLink="https://github.com/hetrox8/math_magicians.git"
-              demoLink="https://math-magicians-sage.vercel.app/"
+              ghLink="https://github.com/hetrox8/book-store-refactor.git"
+              demoLink="https://book-store-refactor.onrender.com/"
             />
           </Col>
 {/* 
@@ -70,7 +69,7 @@ function Projects() {
             />
           </Col>
 */}
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Roxil_Hotel}
               isBlog={false}
@@ -87,16 +86,16 @@ function Projects() {
               ghLink="https://github.com/hetrox8/Roxil_Hotel.git"
              demoLink="https://roxil-hotel.vercel.app/" 
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={movie}
+              imgPath={weather}
               loading = "lazy"
               isBlog={false}
               title="Movie App"
-              description="Movie App is A react App, It's core goal is to display a list of movies to clients. They can also perform some actions like
-              adding a like and make comments on a specific movie. The main tech stack used to achieve this include
+              description="This is a weather App which it's core goal is to inform users of their travel destination's current weather.
+               by utilizing an API endpoint to fetch current weather for different cities
               1. React
               2. Node.js
               3. Css
@@ -109,21 +108,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaderboard}
+            // imgPath={}
               loading = "lazy"
               isBlog={false}
-              title="Budget App"
+              title="Malware Detection system"
               description="
-              This Project core Objective is to fetch Data from an External API and display the Data in a Leaderboard. Users can send and receive data Using the API.
-               The main languages used include 
-               1. Vanilla javascript
-               2. html
-               3. Css
-               4. Npm
-               5. Webpack
+             This is a Malware Detection System, It's primary goal is to prevent, detect and remove malware from systems. 
+             The main language used to achieve this is python scripting language. 
               "
-              ghLink="https://github.com/hetrox8/recipe-app.git"
-               demoLink="https://project-learderboard.vercel.app/"
+              ghLink="https://github.com/hetrox8/HetroxitySentry.git"
+              //  demoLink="https://project-learderboard.vercel.app/"
                   />
           </Col>
         </Row>
