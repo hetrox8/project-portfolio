@@ -9,13 +9,14 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Suleiman Gacheru </span>
-            from <span className="purple"> Mombasa, Kenya.</span>
+            from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am Full-stack Developer working on Open Source Projects, Freelancing and Working on Personal Projects.
+            
             <br />
             <br />
-            I have completed Full-stack Software Development at microverse a complete remote institution with students from diverse cultures.
-            In addition i have completed an IT Automation With Python Course from Coursera building a strong foundation on my Tech-Stack inventory.
+           A Dedicated Software Developer, Jr. Security Analyst and Project Manager with a strong focus in Networking, Cyber Security, Full Stack web development and Project management. Experience in Back end development, System Administration and Experienced in Linux Environments, cloud services ( Microsoft Azure and Office 365) and Network management. Proficient in implementing network security protocols, managing firewalls and ensuring compliance with security standards ie. ( NIST csf & NIST rmf).
+
+Skilled in developing management web systems and Landing Pages , As well as troubleshooting technical issues across multiple operating systems (windows and Linux) and platformsDedicated 
             
             <br />
             <br />

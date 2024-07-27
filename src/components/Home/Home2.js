@@ -19,13 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Full-stack web developer with high interest in Cyber Security and a
+               love for Project Management . Embrace and excel in the realm of Software Development, Cyber Security Ethics (CIA) Triad and Information Security. Proficient in multiple languages,
+                frameworks and technologies like Ruby on Rails, React and JavaScript. Experienced in pair programming 
+               and remote work, quick to adapt. Fast learner and multitasker 
+               <br/>
               <i>
-                <b className="purple"> Ruby, Ruby on Rails, Javascript and Python . </b>
+
+                <br/>
+              <b className="purple">Skilled in . </b>
               </i>
+              Developing management web systems and Landing Pages
+                   , As well as troubleshooting technical
+                   issues across multiple operating systems (windows and Linux) and platforms 
               <br />
               <br />
               My field of Interest's are building new &nbsp;
