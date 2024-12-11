@@ -8,15 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Suleiman Gacheru </span>
+            Hello there, I am <span className="purple">Suleiman Yusuf Gacheru </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
             
             <br />
             <br />
-           A Dedicated Software Developer, Jr. Security Analyst and Project Manager with a strong focus in Networking, Cyber Security, Full Stack web development and Project management. Experience in Back end development, System Administration and Experienced in Linux Environments, cloud services ( Microsoft Azure and Office 365) and Network management. Proficient in implementing network security protocols, managing firewalls and ensuring compliance with security standards ie. ( NIST csf & NIST rmf).
-
-Skilled in developing management web systems and Landing Pages , As well as troubleshooting technical issues across multiple operating systems (windows and Linux) and platformsDedicated 
+            I am a Jr. Security Analyst and Software developer with over 2 years of experience building web applications,
+system and network tools . My greatest strength is collaborating and driving efficiencies across teams and , and
+I have a talent for protecting and monitoring networks and systems. I am passionate about helping people with
+network and systems troubles and showing them the best practices and procedure best suited for their systems
+And most importantly, I value having fun and being collaborative, inclusive and authentic while I do it
             
             <br />
             <br />
@@ -24,13 +26,13 @@ Skilled in developing management web systems and Landing Pages , As well as trou
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Contributing to open source projects
             </li>
             <li className="about-activity">
               <ImPointRight /> Learn Personal Financial literacy
             </li>
             <li className="about-activity">
-              <ImPointRight /> Bike Riding
+              <ImPointRight /> 
             </li>
           </ul>
 

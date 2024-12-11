@@ -1,4 +1,9 @@
-body{
+/* body{
   margin: 0;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+} */
+
+body{
+  margin: 0;
+  background-image: linear-gradient(to left, rgb(15, 220, 247), rgb(15, 220, 247));
 }
