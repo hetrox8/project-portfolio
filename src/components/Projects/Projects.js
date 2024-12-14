@@ -2,8 +2,8 @@ import React, { lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Space from "../../Assets/Projects/Space.png";
-import bookstore from "../../Assets/Projects/bookstore.png"
+// import Space from "../../Assets/Projects/Space.png";
+// import bookstore from "../../Assets/Projects/bookstore.png"
 
 
 function Projects() {
@@ -18,7 +18,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Space}
               loading="lazy"
@@ -36,8 +36,8 @@ function Projects() {
               ghLink="https://github.com/hetrox8/React-Redux-Group-Project.git"
               demoLink="https://6586dec1b2a7d78b0b4e8b3e--willowy-gaufre-5ca032.netlify.app/"
             />
-          </Col>
-
+          </Col> */}
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bookstore}
@@ -54,7 +54,7 @@ function Projects() {
               ghLink="https://github.com/hetrox8/book-store-refactor.git"
               demoLink="https://book-store-refactor.onrender.com/"
             />
-          </Col>
+          </Col> */}
 {/* 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -85,6 +85,7 @@ function Projects() {
              demoLink="https://roxil-hotel.vercel.app/" 
             />
           </Col> */}
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -113,6 +114,37 @@ function Projects() {
               "
               ghLink="https://github.com/hetrox8/HetroxitySentry.git"
               //  demoLink="https://project-learderboard.vercel.app/"
+                  />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+            // imgPath={}
+              loading = "lazy"
+              isBlog={false}
+              title="Linux File Permission Project"
+              description="
+              This project's core goal was to test and improve my skills in user Authorization in the linux environment.
+              Tasks included;
+              1. Grant user(s) file permission 
+              2. Changing permission directory permission
+              "
+              // ghLink="https://github.com/hetrox8/HetroxitySentry.git"
+                demoLink="https://project-learderboard.vercel.app/"
+                  />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+            // imgPath={}
+              loading = "lazy"
+              isBlog={false}
+              title="Cybersecurity Incident Report: Network Traffic Analysis"
+              description="
+              For this project I had to test my Network traffic analysis
+              "
+              // ghLink="https://github.com/hetrox8/HetroxitySentry.git"
+                demoLink="https://docs.google.com/document/d/1tETDQZxvMKkChJbHEZwqZHInj7WXAJ7SgrqP6Fnx6SQ/edit?usp=sharing&resourcekey=0-40RLmZgB-ufnos0JQ5T7Mg"
                   />
           </Col>
         </Row>

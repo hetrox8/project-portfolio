@@ -21,11 +21,10 @@ function Home2() {
             <p className="home-about-body">
               <br />
               <br />
-              I am a Jr. Security Analyst and Software developer with over 2 years of experience building web applications,
-system and network tools . My greatest strength is collaborating and driving efficiencies across teams and , and
-I have a talent for protecting and monitoring networks and systems. I am passionate about helping people with
-network and systems troubles and showing them the best practices and procedure best suited for their systems
-And most importantly, I value having fun and being collaborative, inclusive and authentic while I do it
+              Hello! I’m a Junior Security Analyst and IT Solutions Architect,
+              passionate about safeguarding systems and networks in an ever-evolving digital landscape. With a solid foundation in information and network security, I bring a unique perspective to the world of cybersecurity.
+              My career is dedicated to identifying vulnerabilities, mitigating threats, and ensuring systems operate with the utmost efficiency and security. Whether it’s configuring devices, monitoring networks, or building tools 
+              to enhance security protocols, I am committed to protecting digital infrastructures with cutting-edge solutions.
                <br/>
               <i>
 
@@ -39,26 +38,26 @@ And most importantly, I value having fun and being collaborative, inclusive and 
               <br />
               My field of Interest's are system and network security &nbsp;
               <i>
-                <b className="purple">information security </b> and
-                also in areas related to{" "}
+                <b className="purple"> incident response </b> and
+                also in areas related to{" "} 
                 <b className="purple">
-                  
+                cyber threat analysis, and system resilience engineering.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              Whenever possible, I also apply my passion for developing  <b className="purple">  Network related tools,</b> and
+              <b className="purple"> Writing Blogs on Security Topics"</b>
+              {/* <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
+              </i> */}
+              {/* &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
