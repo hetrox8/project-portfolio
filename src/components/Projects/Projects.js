@@ -2,11 +2,9 @@ import React, { lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-import editor from "../../Assets/Projects/codeEditor.png";
 import Space from "../../Assets/Projects/Space.png";
 import bookstore from "../../Assets/Projects/bookstore.png"
-import weather from "../../Assets/Projects/weather.png"
+
 
 function Projects() {
   return (
@@ -90,18 +88,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weather}
+              // imgPath={weather}
               loading = "lazy"
               isBlog={false}
-              title="Movie App"
-              description="This is a weather App which it's core goal is to inform users of their travel destination's current weather.
-               by utilizing an API endpoint to fetch current weather for different cities
-              1. React
-              2. Node.js
-              3. Css
+              title="Network Analysis App"
+              description="This project implements a network analysis tool build using python. The core features include discovering devices connected, manage bandwidth for each connnect,
+               black and whitelist devices and set timer for connected devices.
               "
-              ghLink="https://github.com/hetrox8/Movie_App.git"
-               demoLink="https://movie-app-alpha-orpin.vercel.app/"
+              ghLink="https://github.com/hetrox8/project.network-analysis.git"
+              //  demoLink="https://movie-app-alpha-orpin.vercel.app/"
                 
                />
           </Col>

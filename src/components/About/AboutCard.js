@@ -14,25 +14,27 @@ function AboutCard() {
             
             <br />
             <br />
-            I am a Jr. Security Analyst and Software developer with over 2 years of experience building web applications,
-system and network tools . My greatest strength is collaborating and driving efficiencies across teams and , and
-I have a talent for protecting and monitoring networks and systems. I am passionate about helping people with
-network and systems troubles and showing them the best practices and procedure best suited for their systems
-And most importantly, I value having fun and being collaborative, inclusive and authentic while I do it
+            I am a Jr. Security Analyst building  a strong foundation in security and Administration in both systems and networks.
+            I am transitioning from a full-stack developer, to a security analyst and IT Support specialty. My career roadmap wasn't straight forward,
+             My recent roles include working as a construction logistics coordinator, where  I was responsible for all incoming materials, used material, payment processes,
+             documentation, reporting and budget control. I delivered excellent performance through each project milestone. This was all possible because i had project management skills and had completed a project management course from google
+             which was valuable.
+             <br />
             
+          
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Contributing to open source projects
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
               <ImPointRight /> Learn Personal Financial literacy
             </li>
             <li className="about-activity">
-              <ImPointRight /> 
+              <ImPointRight /> Bike Riding
             </li>
           </ul>
 

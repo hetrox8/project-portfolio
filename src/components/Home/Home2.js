@@ -21,27 +21,28 @@ function Home2() {
             <p className="home-about-body">
               <br />
               <br />
-              Full-stack web developer with high interest in Cyber Security and a
-               love for Project Management . Embrace and excel in the realm of Software Development, Cyber Security Ethics (CIA) Triad and Information Security. Proficient in multiple languages,
-                frameworks and technologies like Ruby on Rails, React and JavaScript. Experienced in pair programming 
-               and remote work, quick to adapt. Fast learner and multitasker 
+              I am a Jr. Security Analyst and Software developer with over 2 years of experience building web applications,
+system and network tools . My greatest strength is collaborating and driving efficiencies across teams and , and
+I have a talent for protecting and monitoring networks and systems. I am passionate about helping people with
+network and systems troubles and showing them the best practices and procedure best suited for their systems
+And most importantly, I value having fun and being collaborative, inclusive and authentic while I do it
                <br/>
               <i>
 
                 <br/>
               <b className="purple">Skilled in . </b>
               </i>
-              Developing management web systems and Landing Pages
-                   , As well as troubleshooting technical
-                   issues across multiple operating systems (windows and Linux) and platforms 
+              Network and system monitoring, configuring devices, Administration
+              Building Network tools , As well as troubleshooting technical system and network related
+              issues.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are system and network security &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">information security </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  IT Automation With Python and System Administration
+                  
                 </b>
               </i>
               <br />
