@@ -2,12 +2,17 @@ html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
-    rgba(69, 8, 255, 0.904)
+    /* rgba(69, 8, 255, 0.904) */
+    /* background-image: linear-gradient(to left, rgb(15, 220, 247), rgb(15, 220, 247)); */
   );
+
+  
+
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgb(15, 220, 247)
+    rgb(15, 220, 247),
+
   );
 
   --imp-text-color: #c770f0;
@@ -465,6 +470,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  background: !important #87209e;;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
