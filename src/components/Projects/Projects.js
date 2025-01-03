@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import Space from "../../Assets/Projects/Space.png";
 // import bookstore from "../../Assets/Projects/bookstore.png"
-
+import password from '../../Assets/Projects/password.png'
 
 function Projects() {
   return (
@@ -85,7 +85,21 @@ function Projects() {
              demoLink="https://roxil-hotel.vercel.app/" 
             />
           </Col> */}
-          
+           <Col md={4} className="project-card">
+            <ProjectCard
+             imgPath={password}
+              loading = "lazy"
+              isBlog={false}
+              title="Password verifier"
+              description="
+              This Projects core goal is to Create a tool to evaluate the strength of a password based on: Length.
+               Complexity (uppercase, lowercase, numbers, special characters). Common password patterns or dictionary words.
+              "
+                ghLink="https://github.com/hetrox8/Password-Verify.git"
+                demoLink="https://password-verifygit-kvwcsedkxbqk9hoqcfkjyb.streamlit.app/"
+                  />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
