@@ -1,8 +1,9 @@
-import React, { lazy } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import Space from "../../Assets/Projects/Space.png";
+import IT from "../../Assets/Projects/IT.png";
+import IT2 from "../../Assets/Projects/IT2.png";
 // import bookstore from "../../Assets/Projects/bookstore.png"
 import password from '../../Assets/Projects/password.png'
 
@@ -18,25 +19,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Space}
-              loading="lazy"
-              isBlog={false}
-              title="Space Traveller's Hub"
-              description="Space Travellers Hub is a React App where Users can check available Space Shuttles, Book or Cancel Booking. There are Various 
-              Space Shuttles for Booking Including the Very Best Eagle Falcon from Space X
-              The main tech stack include
-              1. React.js
-              2. Css
-              3. Node.js
-              4. Npm
-              .
-              "
-              ghLink="https://github.com/hetrox8/React-Redux-Group-Project.git"
-              demoLink="https://6586dec1b2a7d78b0b4e8b3e--willowy-gaufre-5ca032.netlify.app/"
-            />
-          </Col> */}
+            imgPath={[IT, IT2]}
+            title="IT Help Desk Ticketing System"
+            description={`A real-world workflow solution using Google Forms, Google Sheets, and Apps Script.
+            🔐 Auto-generates unique Ticket IDs (e.g., TKT-2025-001
+            🟢 Tracks status and timestamps each request
+            📧 Notifies IT via email instantly.
+            Tools & Technologies
+            - Google Forms
+            - Google Sheets
+            - Google Apps Script
+            - Gmail
+            - Modern browser`}
+            ghLink="https://github.com/hetrox8/it-helpdesk-ticketing-system.git"
+            
+          />
+          </Col> 
 {/* 
           <Col md={4} className="project-card">
             <ProjectCard

@@ -5,5 +5,20 @@
 
 body{
   margin: 0;
-  background-image: linear-gradient(to left, rgb(15, 220, 247), rgb(15, 220, 247));
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.project-card-images {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 5px;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }

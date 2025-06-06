@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -21,10 +21,12 @@ function Home2() {
             <p className="home-about-body">
               <br />
               <br />
-              Hello! I’m a Junior Security Analyst and IT Solutions Architect,
-              passionate about safeguarding systems and networks in an ever-evolving digital landscape. With a solid foundation in information and network security, I bring a unique perspective to the world of cybersecurity.
-              My career is dedicated to identifying vulnerabilities, mitigating threats, and ensuring systems operate with the utmost efficiency and security. Whether it’s configuring devices, monitoring networks, or building tools 
-              to enhance security protocols, I am committed to protecting digital infrastructures with cutting-edge solutions.
+              Hi, I'm <b className="purple">Suleiman Yusuf Gacheru</b>  — an aspiring IT Support & Network Specialist based in Mombasa, Kenya.
+🔧 I troubleshoot and optimize systems, set up and secure networks, and build smart solutions using tools like Google Workspace and Python.  
+🛠️ I’ve deployed a complete <b className="purple">IT Help Desk Ticketing System </b>using Google Forms, Sheets, and Apps Script.  
+🎯 Currently learning <b className="purple">Cisco Network Administration</b> and preparing for <b className="purple">CCNA + Cloud Security certification</b>.  
+💡 Passionate about creating real-world solutions, especially in fintech and digital empowerment spaces.
+
                <br/>
               <i>
 
